@@ -1,0 +1,5 @@
+alias cat=bat
+alias grep='rg'
+alias pull='git pull'
+alias resethead='git reset HEAD --hard'
+alias commit='git commit -m'

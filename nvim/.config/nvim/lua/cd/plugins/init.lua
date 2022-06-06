@@ -15,9 +15,8 @@ return require('packer').startup(function()
     'nvim-telescope/telescope.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use { "nvim-telescope/telescope-file-browser.nvim" }
-  use { 'folke/which-key.nvim' }
-
+  use 'nvim-telescope/telescope-file-browser.nvim'
+  use 'folke/which-key.nvim'
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/cmp-buffer'
@@ -28,6 +27,10 @@ return require('packer').startup(function()
   use 'glepnir/dashboard-nvim'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'terrortylor/nvim-comment'
+  use 'jose-elias-alvarez/null-ls.nvim'
+  use 'jose-elias-alvarez/nvim-lsp-ts-utils'
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
 
 end)
 
