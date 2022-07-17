@@ -10,7 +10,6 @@ vim.opt.cursorline = true
 vim.opt.list = true
 vim.opt.listchars = {eol = '↲', tab = '▸ ', trail = '·'}
 vim.opt.termguicolors = true
-vim.cmd('colorscheme dracula')
 vim.o.conceallevel = 0
 vim.cmd('filetype plugin indent on')
 -- neovim already sets the shortmess options. We are appending c to it

@@ -1,0 +1,6 @@
+require('cd.settings')
+require('cd.plugins')
+require('cd.colors')
+require('cd.keybindings')
+require('cd.plugin_config')
+require('cd.lsp')

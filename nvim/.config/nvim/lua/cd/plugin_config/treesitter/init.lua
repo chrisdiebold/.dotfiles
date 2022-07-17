@@ -1,5 +1,6 @@
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {
+    'bash',
     'comment',
     'c', 'cpp',
     'css',
@@ -14,6 +15,7 @@ require'nvim-treesitter.configs'.setup {
     'json',
     'latex',
     'lua',
+    'markdown',
     'rust',
     'scss',
     'svelte',
@@ -30,10 +32,6 @@ require'nvim-treesitter.configs'.setup {
   },
   autotag = {
     enable = true
-  }
+  },
+  auto_install = true,
 }
---[[ Tree sitter based folding
-set foldmethod=expr
-set foldexpr=nvim_treesitter#foldexpr()
-]]--
-
